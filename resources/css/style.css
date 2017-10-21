@@ -190,8 +190,13 @@ footer .container {
     display: none;
   }
 
+  .title {
+    display: flex;
+  
+  }
+
   .title .container {
-    justify-content: center;
+display: inline-flex;
   }
 
 
