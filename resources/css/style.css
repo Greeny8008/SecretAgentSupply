@@ -52,6 +52,7 @@ div {
   font-weight: bold;
   padding: 2rem 3rem;
   top: 9rem;
+  opacity: 0.9;
 }
 
 .banner h1 {
@@ -74,6 +75,10 @@ a {
 .nav-items {
   display: flex;
   justify-content: space-around;
+}
+
+.tablet-nav {
+  display: none;
 }
 
 li {
@@ -114,4 +119,60 @@ padding-top: 3rem;
 .product-image img {
   height: 9rem;
   width: 9rem;
+}
+
+/*Contact details*/
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem 0rem;
+}
+
+.info {
+  width: 35%;
+  margin-bottom: 4rem;
+}
+
+.header {
+  background-color: black;
+  color: white;
+  padding: 1rem 2rem;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+/*Footer*/
+
+footer {
+  background-color: black;
+  height: 5rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+footer .container {
+  display: inline-flex;
+}
+
+/*Media queries*/
+
+@media only screen and (max-width: 1024px) {
+
+  body {
+    font-size: 16px;
+  }
+
+  .nav-items {
+    display: none;
+  }
+
+  .tablet-nav {
+    display: block;
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+  }
 }
