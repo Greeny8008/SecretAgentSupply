@@ -186,11 +186,17 @@ footer .container {
     font-size: 16px;
   }
 
-  .watch {
+  .title span, .watch {
     display: none;
   }
 
-  .info {
+  .title .container {
+    justify-content: center;
+  }
+
+
+
+ .info {
     width: 90%;
   }
 
@@ -210,6 +216,10 @@ footer .container {
     font-size: 0.77rem;
   }
 
+  .products {
+    justify-content: center;
+  }
+
   .product, .info {
     width: 90%;
     flex-wrap: wrap;
@@ -218,6 +228,12 @@ footer .container {
 
   .banner h1 {
     font-size: 1rem;
+  }
+
+  .details {
+    align-items: center;
+    display:flex;
+    flex-direction: column;
   }
 
 
